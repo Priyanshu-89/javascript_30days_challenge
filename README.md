@@ -9,3 +9,14 @@ In this challenge, you will embark on a journey to strengthen your understanding
 ## Mentorship by Hitesh Sir
 
 Hitesh Sir, a renowned educator and developer, will guide you through this challenge with his expertise and insightful teaching style. His dedication to simplifying complex concepts and fostering a practical approach to learning programming.
+
+## Connect with Me
+
+Feel free to connect with me on these platforms:
+
+- [GitHub](https://github.com/Priyanshu-89)
+- [LinkedIn](https://www.linkedin.com/in/priyanshu-kumari-776733266/)
+
+Let's code!
+
+
