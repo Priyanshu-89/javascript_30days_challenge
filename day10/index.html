@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Handling</title>
+    <style>
+        #hover-div{
+            width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        text-align: center;
+        
+        cursor: pointer; 
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    li {
+        cursor: pointer;
+        padding: 10px;
+        margin: 5px;
+        background-color: #f0f0f0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    li:hover {
+        background-color: #e0e0e0;
+    }
+        
+    </style>
+</head>
+<body style="background-color: lightseagreen; font-family: sans-serif;">
+    <h1 style="color: lightgray; font-family: sans-serif;">Day 10 : Event Handling</h1>
+    <h2>Task 1</h2>
+   
+    <p id="changetxt">This is Original Text</p>
+    <button id="changetxtbtn">Change Content</button>
+
+    <h2>Task 2</h2>
+    <img src="https://wallpapers.com/images/featured/nature-2ygv7ssy2k0lxlzu.jpg" alt="Loading" id="toggleImage" width="300" style="cursor: pointer;">
+
+    <h2>Task 3/4</h2>
+    <div id="hover-div">Hover Me</div>
+    <h2>Task 5</h2>
+    <label for="input">Enter Anything...</label>
+    <input type="text" id="input">
+    <h2>Task 6</h2>
+    <p id="displayPara"></p>
+
+    <h2>Task 7</h2>
+    <form action="#" id="myForm">
+        <label for="#">Name :</label>
+        <input type="text" name="name" id="name">
+        <input type="submit" value="Submit">
+    </form>
+
+    <h2>Task 8</h2>
+    <label for="mySelect">Choose a fruit:</label>
+<select id="mySelect">
+    <option value="apple">Apple</option>
+    <option value="banana">Banana</option>
+    <option value="cherry">Cherry</option>
+    <option value="orange">Orange</option>
+</select>
+<p id="selectedValue"></p>
+
+<h2>Task 9</h2>
+<ul id="myList">
+ 
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+</ul>
+
+<h2>Task 10</h2>
+<button id="addButton">Add Item</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
