@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family:  Helvetica;
+    color: #0063B2FF;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+body .container{
+    background-color: #a7d6ec;
+    width: 500px;
+    text-align: center;
+    box-shadow: 8px 10px 20px rgba(0, 0, 0, 0.4);
+margin-top: 20px;
+  border-radius: 10px;
+  padding-bottom: 20px;
+
+}
+
+form{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 28px;
+}
+
+form input[type="text"]{
+    padding: 12px;
+    width: 65%;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+#searchButton {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #0063B2FF;
+    color: #a7d6ec;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: all 0.2s ease-in;
+}
+
+#searchButton:hover{
+   color: #dadada;
+    background-color: #034f8d;
+}
+
+.icon img{
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.temp{
+    font-size: 32px;
+    font-family: 600;
+    
+}
+
+.description{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 16px;
+}
+
+.details{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+   
+}
+
+.details>div{
+    font-size: 16px;
+    background-color: #f5f4f4;
+    padding: 12px;
+    border-radius: 8px;
+   
+}
+
+.forecast {
+    margin-top: 20px;
+}
+
+.forecast-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.forecast-date {
+    font-weight: bold;
+}
+
+.forecast-temp {
+    font-size: 1.2em;
+}
+
+.forecast-desc {
+    color: #555;
+}
+
+.forecast img {
+    width: 50px;
+    height: 50px;
+}
