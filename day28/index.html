@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery store</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./mediaquery.css">
+
+    <!-- link for icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+
+</head>
+
+<body>
+
+    <!-- header section -->
+    <header class="header">
+
+
+        <a href="#" class="logo"> <i class="ri-shopping-basket-fill"></i>Grocery
+        </a>
+
+        <!-- for navigation -->
+
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <!-- <a href="#features">features</a> -->
+            <!-- <a href="#products">products</a> -->
+            <a href="#categories">categories</a>
+            <!-- <a href="#review">review</a> -->
+            <!-- <a href="#blogs">blogs</a> -->
+
+        </nav>
+
+        <!-- icons section -->
+        <div class="icons">
+            <div class="ri-bar-chart-horizontal-fill" id="menu-btn"></div>
+            <div class="ri-search-line" id="search-btn"></div>
+
+            <div class="ri-shopping-cart-fill" id="cart-btn"></div>
+            <div class="ri-user-fill" id="login-btn"></div>
+
+        </div>
+
+        <!-- for search box -->
+
+        <form action="#" class="search-form">
+            <input type="search" id="search-box" placeholder="Search Here.....">
+            <label for="search-box" class="ri-search-line"></label>
+        </form>
+
+        <!-- //for cart -->
+        <div class="shopping-Cart">
+
+            <div class="box">
+                <img src="./images//watermelon.png" alt="image is loading...">
+                <i class="ri-delete-bin-line"></i>
+                <div class="content">
+                    <h3>watermelon</h3>
+                    <span class="price">$5.99</span>
+                    <span class="quantity">Qty/- :3</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/onion.png" alt="image is loading...">
+                <i class="ri-delete-bin-line"></i>
+                <div class="content">
+                    <h3>Onion</h3>
+                    <span class="price">$6.99</span>
+                    <span class="quantity">Qty/- :2</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./images/chicken1.png" alt="image is loading...">
+                <i class="ri-delete-bin-line"></i>
+                <div class="content">
+                    <h3>Chicken</h3>
+                    <span class="price">$11.99</span>
+                    <span class="quantity">Qty/- :1</span>
+                </div>
+            </div>
+            <div class="total">Total : $18.97/-</div>
+            <a href="#" class="btn">Checkout</a>
+        </div>
+
+        <!-- login section -->
+
+        <form action="#" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="Your email" class="box">
+            <input type="password" placeholder="Your password" class="box">
+            <p>Forget Your Password <a href="#">Click Here</a></p>
+            <p>Forget Your Password <a href="#">Create Now</a></p>
+            <input type="submit" value="Login Now" class="btn">
+        </form>
+    </header>
+
+    <!-- banner section -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Fresh And <span>Organic</span> Products For You</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et voluptatum sequi id eaque? Autem neque
+                quidem natus aliquid sint ipsam voluptatibus dignissimos consectetur?</p>
+            <!-- <a href="#" class="btn">Add to Cart</a> -->
+        </div>
+    </section>
+
+  
+
+   
+    <!-- Our categories section -->
+
+    <section class="categories" id="categories">
+        <h1 class="heading">Product <span>Categories</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="./images/patato.png" alt="Loading...">
+                <h3>Patato</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/cabbage.png" alt="Loading...">
+                <h3>Cabbage</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/carrot.png" alt="Loading...">
+                <h3>Carrot</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/onion.png" alt="Loading...">
+                <h3>Onion</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/chicken.png" alt="Loading...">
+                <h3>Chicken</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/meat.png" alt="Loading...">
+                <h3>Meat</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/fish.png" alt="Loading...">
+                <h3>Fish</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/egg.png" alt="Loading...">
+                <h3>Egg</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+
+            <div class="box">
+                <img src="./images/orange.png" alt="Loading...">
+                <h3>Orange</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/apple.png" alt="Loading...">
+                <h3>Apple</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/pomegranate.png" alt="Loading...">
+                <h3>Pomegranate</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <img src="./images/guava.png" alt="Loading...">
+                <h3>Guava</h3>
+                <p>Upto 45% off</p>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+  
+
+    <!-- Footer section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Groco<i class="ri-shopping-basket-fill"></i></h3>
+                <p>Feel Free To Follow Us On Our Social Media Handelers All The Links Are Given Bleow.</p>
+                <div class="share">
+                    <a href="#" class="ri-facebook-fill fs-2 p-2"></a>
+                    <a href="#" class="ri-instagram-fill fs-2 p-2"></a>
+                    <a href="#" class="ri-twitter-fill fs-2 p-2"></a>
+                    <a href="#" class="ri-youtube-fill fs-2 p-2"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#" class="links"><i class="ri-phone-fill"></i>+91 9955257278</a>
+                <a href="#" class="links"><i class="ri-phone-fill"></i>+91 9955257278</a>
+                <a href="#" class="links"><i class="ri-mail-fill"></i>info@example.com</a>
+                <a href="#" class="links"><i class="ri-map-pin-fill"></i>Bihar, india</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#" class="links"><i class="ri-arrow-right-line"></i>Home</a>
+                <a href="#" class="links"><i class="ri-arrow-right-line"></i>Features</a>
+                <a href="#" class="links"><i class="ri-arrow-right-line"></i>Products</a>
+                <a href="#" class="links"><i class="ri-arrow-right-line"></i>Categories</a>
+                <a href="#" class="links"><i class="ri-arrow-right-line"></i>Reviews</a>
+                <a href="#" class="links"><i class="ri-arrow-right-line"></i>Blogs</a>
+
+
+            </div>
+
+            <div class="box">
+                <h3>NewsLetter</h3>
+                <p>Subscribe For Latest Updates</p>
+                <input type="email" placeholder="Your Email" class="email">
+                <input type="submit" value="Subscribe" class="btn">
+                <img src="./images/news.png" alt="Loading" class="payment-img">
+            </div>
+
+
+        </div>
+
+        <div class="credit">Created By <span>Priyanshu Kumari</span> | &copy All Rights Reserved</div>
+    </section>
+
+
+    <script src="../js/script.js https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./scripts.js"></script>
+</body>
+
+</html>
