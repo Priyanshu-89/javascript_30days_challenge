@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Social Media Dashboard</h1>
+            <button id="logoutButton" style="display: none;">Logout</button>
+        </header>
+
+        <section class="login-form" id="loginFormSection">
+            <!-- <h2>Login</h2> -->
+            <form id="loginForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+        </section>
+
+        <section class="post-form" id="postSection" style="display: none;">
+            <h2>Create a New Post</h2>
+            <form id="createPostForm">
+                <label for="usernameInput">Username</label>
+                <input type="text" id="usernameInput" name="username" required>
+        
+                <label for="postText">Post Text</label>
+                <textarea id="postText" name="postText" placeholder="What's on your mind?" rows="4" required></textarea>
+                
+                <label for="postImage">Post Image</label>
+                <input type="file" id="postImage" name="postImage" accept="image/*">
+                
+                <button type="submit">Post</button>
+            </form>
+        </section>
+        
+        <section class="posts" id="postsSection" style="display: none;">
+            <h2>Recent Posts</h2>
+            <div id="postsFeed" class="posts-feed">
+                <!-- Posts will be dynamically added here -->
+            </div>
+        </section>
+    </div>
+
+    <script src="./login.js"></script>
+    <script src="./posts.js"></script>
+</body>
+</html>
